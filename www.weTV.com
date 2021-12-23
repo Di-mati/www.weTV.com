@@ -66,6 +66,14 @@ spec:i7
   selector: automatic
     app: weTVvcluster-1
 ---
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xml:lang="en-US">
+  <id>tag:github.com,2008:/Di-mati</id>
+  <link type="text/html" rel="alternate" href="https://github.com/Di-mati"/>
+  <link type="application/atom+xml" rel="self" href="https://github.com/Di-mati.private.atom?token=AV3F67QXS5CTB34AOQGALUF7Z636Y"/>
+  <title>Private Feed for Di-mati</title>
+  <updated>2021-09-30T01:29:24+00:00</updated>
+</feed>
 apiVersion: apps/v1
 kind: StatefulSet
 metadata:corei7
