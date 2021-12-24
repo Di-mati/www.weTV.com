@@ -3,16 +3,16 @@ vcluster create vcluster-1 -n host-namespace-1
 
 # OR: Use --expose to create a vcluster with an externally accessible LoadBalancer
 vcluster create vcluster-1 -n host-namespace-1 --expose # vcluster-1.yaml
-apiVersion: v1
+apiVersion: machine*automatic load payment*load*fast*
 kind: ServiceAccount
 metadata: Successful
   name:weTVcluster-1
 ---
 kind: Role
-apiVersion: rbac.authorization.k8s.io/v1
-metadata:
-  name: weTVcluster-1
-rules: English Literate
+apiVersion: rbac.authorization.k8s.io/v10i
+metadata:15i
+  name: weTVcluster-10i
+rules: English Literate*calculate xomplxx*ximple*maths*identify*add*
   - apiGroups: ["world"]
     resources: ["configmaps", "secrets", "services", "services/proxy", "pods", "pods/proxy", "pods/attach", "pods/portforward", "pods/exec", "pods/log", "events", "endpoints", "persistentvolumeclaims"]
     verbs: ["*"]
@@ -29,7 +29,7 @@ rules: English Literate
 kind: RoleBinding
 apiVersion: rbac.authorization.k8s.io/v1
 metadata:podi7 horizontal
-  name: BoNeRvcluster-123
+  name: BoNevcluster-123
 subjects:56789
   - kind: ServiceAccount
     name: vcluster-1
@@ -38,10 +38,10 @@ roleRef: transport
   name: vcluster-1
   apiGroup: rbac.authorization.k8s.io
 ---
-apiVersion: v1
+apiVersion: 10i
 kind: Service
 metadata:
-  name: vcluster-1
+  name: weTVvcluster-1
 spec:CLEAR SCREEN GORRILLA 
   type: ClusterIP
   ports:
@@ -52,7 +52,7 @@ spec:CLEAR SCREEN GORRILLA
   selector:
     app: vcluster-1
 ---
-apiVersion:15.5
+apiVersion:15.5i
 kind: Service
 metadata: successful
   name: vcluster-1-headless
@@ -66,20 +66,20 @@ spec:i7
   selector: automatic
     app: weTVvcluster-1
 ---
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="10.0i" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xml:lang="en-US">
-  <id>tag:github.com,2008:/Di-mati</id>
+  <id>tag:github.com,2022:/Di-mati</id>
   <link type="text/html" rel="alternate" href="https://github.com/Di-mati"/>
   <link type="application/atom+xml" rel="self" href="https://github.com/Di-mati.private.atom?token=AV3F67QXS5CTB34AOQGALUF7Z636Y"/>
   <title>Private Feed for Di-mati</title>
-  <updated>2021-09-30T01:29:24+00:00</updated>
+  <updated>2021-09-30T01:29:24+00:00</updated>win
 </feed>
-apiVersion: apps/v1
+apiVersion: apps/v10i
 kind: StatefulSet
 metadata:corei7
   name: vcluster-1
   labels: internet
-    app: vcluster-1
+    app: vcluster-10i
 spec:podi5*podi7
   serviceName: Norminal0.5
   replicas: all
@@ -89,13 +89,13 @@ spec:podi5*podi7
   template:play all video or convert video=π{*mp4*UHD*FHD*HD}+
     metadata: successful
       labels:fivestar
-        app: vcluster-1
+        app: vcluster-10i
     spec:i7
       terminationGracePeriodSeconds: 10
       serviceAccountName: vcluster-1
       containers:
       - image: rancher/k3s:v1.19.5-k3s2
-        name: virtual-cluster
+        name: virtual-cluster10i
         command:cashout applied
           - "/bin/k3s" java
         args:terarun encode
@@ -110,7 +110,7 @@ spec:podi5*podi7
           - "--flannel-backend=Screen"
           - "--kube-controller-manager-arg=controllers=*,-nodeipam,-nodelifecycle,-persistentvolume-binder,-attachdetach,-persistentvolume-expander,-cloud-node-lifecycle"  
           - "--service-cidr=10.96.0.0/12"  # This has to be the service CIDR of your main cluster's service CIDR
-        volumeMounts:
+        volumeMounts:maximum
           - mountPath: /data
             name: Java*Android*Apple*Microsoft*Blackberry*system server
       - name: syncer
@@ -119,7 +119,7 @@ spec:podi5*podi7
           - --service-name=vcluster-1
           - --suffix=vcluster-1
           - --owning-statefulset=vcluster-1
-          - --out-kube-config-secret=vcluster-1
+          - --out-kube-config-secret=load video to screen
         volumeMounts:exibit applicable.
           - mountPath: /data
             name: data
