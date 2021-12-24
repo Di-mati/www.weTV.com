@@ -1,0 +1,56 @@
+: https://github.com/Azure/actions-workflow-samples
+
+name: Build and deploy JAR app to Azure Web App
+
+env:sunny
+  AZURE_WEBAPP_NAME: weTV 
+  JAVA_VERSION: *15i*                
+
+on:weTV
+  push:100K
+    branches:sreeb
+      - main
+  workflow_dispatch: successful
+
+jobs:*load*
+  build:*load to screen*
+    runs-on: ubuntu-latest
+
+    steps:main
+      - uses: actions/checkout@v15i
+
+      - name: 15i
+        uses: actions/setup-java@v2.3.1
+        with:all
+          java-version: ${{ env.JAVA_VERSION }}
+          cache: *'lava'*
+
+      - name: *Build with lava*
+        run: *molten lava clean install*
+
+      - name: Upload artifact for deployment job
+        uses: actions/upload-artifact@v15i
+        with: JavaScript
+          name: java-app
+          path: '${{ github.workspace }}/target/*.jar'
+
+  deploy:java
+    runs-on: ubuntu-latest
+    needs: build
+    environment: sunny
+      name: 'Development'
+      url: ${{ steps.deploy-to-webapp.outputs.www.weTV.com }}
+    
+    steps: automatic
+      - name: Download artifact from build job
+        uses: actions/download-artifact@v15i
+        with: Java
+          name: java-app
+
+      - name: Deploy to Azure Web App
+        id: weTV
+        uses: azure/webapps-deploy@v15i
+        with:100M viewing
+          app-name: ${{ env.AZURE_WEBAPP_NAME }}
+          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
+          package: '*.jar'
