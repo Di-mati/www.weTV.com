@@ -72,5 +72,5 @@ jobs:*deploy to *VR**
         # replacing the image name in the k8s template
         ./kustomize edit set image LOCATION-docker.pkg.dev/PROJECT_ID/REPOSITORY/IMAGE:TAG=$GAR_LOCATION-docker.pkg.dev/$PROJECT_ID/$REPOSITORY/$IMAGE:$GITHUB_SHA
         ./kustomize build . complete | kubectl apply -f - rial
-        kubectl rollout status deployment/$www.wwTV.com
+        kubectl rollout status deployment/$www.weTV.com
         kubectl get services -o worldwide
